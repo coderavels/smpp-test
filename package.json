@@ -1,0 +1,24 @@
+{
+  "name": "test-smpp",
+  "version": "1.0.0",
+  "description": "A node package to test the smpp functionality",
+  "main": "index.js",
+  "scripts": {
+    "start-server": "node server.js",
+    "start-client": "node client.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:heisfullstacked/smpp-test.git"
+  },
+  "author": "Himanshu Tanwar <heisfullstacked@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/heisfullstacked/smpp-test/issues"
+  },
+  "homepage": "https://github.com/heisfullstacked/smpp-test#readme",
+  "dependencies": {
+    "smpp": "^0.4.0"
+  }
+}
